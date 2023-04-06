@@ -1,6 +1,8 @@
-package interest;
+package com.interest.main;
 
-public class Main{
+import com.interest.banks.BankInterest;
+
+public class Main {
     public static void main(String[] args) {
         BankInterest bnkInt = new BankInterest();
         System.out.println("Thanks for using our service");
@@ -8,9 +10,9 @@ public class Main{
         System.out.println("Previous Fd interest:" + actualFdInterest);
         bnkInt.setFdInterestPercent(actualFdInterest - 1);
         int changedFdRate = bnkInt.getFdInterestPercent();
-        System.out.println("After decreased repo rates:" +changedFdRate);
+        System.out.println("After decreased repo rates:" + changedFdRate);
         System.out.println("Previous Loan interest:" + bnkInt.getLoanInterestPercent());
         bnkInt.setLoanInterestPercent(bnkInt.getLoanInterestPercent() - 1);
-        System.out.println("After decreased repo rates:" +bnkInt.getLoanInterestPercent());
+        System.out.println("After decreased repo rates:" + bnkInt.getLoanInterestPercent());
     }
 }

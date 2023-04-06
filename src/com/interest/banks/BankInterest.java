@@ -1,8 +1,9 @@
-package interest;
+package com.interest.banks;
 
 public class BankInterest {
     private int fdInterestPercent = 6;
     private int loanInterestPercent = 12;
+
     public int getFdInterestPercent() {
         return fdInterestPercent;
     }
