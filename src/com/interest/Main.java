@@ -1,4 +1,4 @@
-package com.interest.main;
+package com.interest;
 
 import com.interest.banks.BankInterest;
 
