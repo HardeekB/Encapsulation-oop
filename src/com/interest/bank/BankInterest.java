@@ -1,4 +1,4 @@
-package com.interest.banks;
+package com.interest.bank;
 
 public class BankInterest {
     private int fdInterestPercent = 6;

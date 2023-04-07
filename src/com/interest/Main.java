@@ -1,6 +1,6 @@
 package com.interest;
 
-import com.interest.banks.BankInterest;
+import com.interest.bank.BankInterest;
 
 public class Main {
     public static void main(String[] args) {
